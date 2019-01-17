@@ -1,12 +1,39 @@
 {
   "flightsInfo": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+{
+"id":1,
+"Operator": "AMERICAN",
+"Status": "ACF",
+"Test Case": "UC01_SC1_TC01",
+"Flight Range End": 50,
+"Type": "NOT",
+"Date Offset": "0",
+"Status Id": 4,
+"Segments": 1,
+"Flight Range Start": 25,
+"Carrier": "AA_MAINLINE",
+"Flight Range Id": 5,
+"Type Id": 4
+},
+{
+"id":2,
+"Operator": "ENVOY",
+"Status": "DEL",
+"Test Case": "UC01_SC1_TC48",
+"Flight Range End": 50,
+"Type": "ROR",
+"Date Offset": "0",
+"Status Id": 4,
+"Segments": 1,
+"Flight Range Start": 25,
+"Carrier": "AA_EXPRESS_1",
+"Flight Range Id": 5,
+"Type Id": 4
+},
+],
+  "flightNumRange": [
+    { "id": 1, "Flight Range Start": 25,"Flight Range End": 50, "Operator": "AMERICAN", "Carrier": "AA_MAINLINE",},
+    { "id": 2, "Flight Range Start": 25,"Flight Range End": 50, "Operator": "AMERICAN", "Carrier": "AA_MAINLINE",},
   ],
   "profile": {
     "name": "typicode"
